@@ -8,17 +8,188 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="https://kit.fontawesome.com/81d1da81c8.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header-wrapper">
-        <div class="bg-image">
-
-        </div>
+            <div class="bg-image">
+                <nav class="navigation">
+                    <div class="zetta">
+                        <a href="index.html" class="logo">Zetta Hotels</a>
+                    </div>
+                     <ul class="nav-ul">
+                        <li class="nav-li">
+                            <a href="index.html" class="header-lists">HOME</a>
+                        </li>
+                        <li class="nav-li">
+                            <a href="#" class="header-lists">ROOMS</a>
+                            <select name="rooms" id="room-block" class="rooms"></select>
+                        </li>
+                        <li class="nav-li">
+                            <a href="#" class="header-lists">RESTOURANT</a>
+                        </li>
+                        <li class="nav-li">
+                            <a href="#" class="header-lists">ABOUT</a>
+                        </li>                    
+                        <li class="nav-li">
+                            <a href="#" class="header-lists">BLOG</a>
+                         </li>
+                        <li class="nav-li">
+                            <a href="#" class="header-lists">CONTACT</a>
+                        </li>
+                   </ul>
+                </nav>
+                <i class="fas fa-bars"></i>
+                <div class="header-block-text">
+                    <a href="" class="contact-title">Contact</a>
+                    <div class="little-block">
+                        <a href="index.html" class="little-block-text">HOME</a>
+                        <div class="line"></div>
+                        <a href="#" class="little-block-text">CONTACT</a>
+                    </div>
+                </div>
+            </div>
     </header>
+        <div class="map-block">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d381351.84645794175!2d-87.95929510115738!3d41.69221499623479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e15077a5256b7%3A0x295873652e91d292!2sCore%20%26%20Main!5e0!3m2!1ska!2sge!4v1633010353541!5m2!1ska!2sge" width="80%" height="300px"  allowfullscreen="" loading="lazy"></iframe>
+        </div>
     <section>
+        <div class="middle-block">
+            <div class="title-box">
+                <h3 class="title1">CONTACT</h3>
+                <h2 class="main-title">Contact us to get free support</h2>
+            </div>
+            <form action="" class="form-wrapper">
+            <div class="label-divider">
+                <div class="textarea">
+                    <textarea name="description" id="description" cols="30" rows="10" placeholder="Description" class="textarea-block"></textarea>
+                </div>
+                <div class="input-block">
+                    <input type="text" id="subject" class="subject-block" placeholder="Subject">
+                    <input type="text" id="name" class="name-block" placeholder="Name / Surname">
+                    <input type="email" id="email" class="email-block" placeholder="Email">
+                    <div class="button-box">
+                        <button type="submit" class="button-block">SEND</button>
+                        <img class="send-image" src="images/send.svg" alt="send-image">
+                    </div>
+                </div>    
+            </div>
+            </form>
+            <div class="icon-block">
+                <div class="email-box">
+                    <div class="email-icon-block">
+                        <i class="far fa-envelope icons"></i>
+                    </div>
+                    <div class="bottom-text-block">
+                        <h2 class="bottom-titles">EMAIL</h2>
+                        <a href="mailto:example@yahoo.com"  class="link-box">example@yahoo.com</a>
+                        <a href="mailto:exampleemail2@yahoo.com" class="link-box">exampleemail2@yahoo.com</a>
+                    </div>
+                </div>
+                <div class="phone-box">
+                    <div class="phone-icon-block">
+                        <i class="fas fa-phone-alt icons"></i>
+                    </div>
+                    <div class="bottom-text-block">
+                        <h2 class="bottom-titles">PHONE</h2>
+                        <a href="tel=+03204224254" class="link-box">+0 320 422 4254</a>
+                        <a href="tel=+0342552523" class="link-box">+0 342 552 523</a>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <div class="contact-icon-block">
+                        <i class="fas fa-address-book icons"></i>
+                    </div>
+                    <div class="bottom-text-block">
+                        <h2 class="bottom-titles">CONTACT</h2>
+                        <a href="https://goo.gl/maps/EJUjqnkVmr6eWede8" class="link-box">Main Str Chicago Ilinois</a>
+                        <a href="https://goo.gl/maps/qcRGWJMLJqamEEWHA" class="link-box">Main Street New York City</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <section></section>
-    <section></section>
-    <footer class="footer-wrapper"></footer>
+    <section>
+        <div class="pic-block">
+            <div class="header-block">
+                <h3 class="title1">PHOTOS</h3>
+                <h2 class="main-title">See our latest photos from restaurant and hotel</h2>
+            </div>
+            <div class="image-block">
+                <img class="pictures" src="images/mohamed-ajufaan-GFcWwwGNu_w-unsplash.png" alt="beach-image">
+                <img class="pictures" src="images/manuel-moreno-DGa0LQ0yDPc-unsplash.png" alt="hotel-image">
+                <img class="pictures" src="images/rhema-kallianpur-jbJ-_hw2yag-unsplash.png" alt="house-image">
+            </div>
+        </div>
+    </section>
+    <footer class="footer-wrapper">
+        <div class="footer-big-block">
+            <div class="first-block">
+                <h2 class="hotels">Zetta Hotels</h2>
+                <p class="pharagraph">Our hotel is an image of quality and profesionalism combined with hard work and precision. You can expect only the best services from our staff.</p>
+                <div class="social-icons">
+                    <img class="icon-cont" src="images/facebook.png" alt="facebook-icon">
+                    <img class="icon-cont" src="images/twitter.png" alt="twitter-icon">
+                    <img class="icon-cont" src="images/google-plus.png" alt="google-plus-icon">
+                </div> 
+            </div>
+            <div class="sec-block">
+                <div class="container-block">
+                    <h4 class="h4-title">Useful links</h4>
+                    <ul class="footer-ul">
+                        <li class="footer-li">
+                            <a class="footer-links" href="#">Blog</a>
+                        </li>
+                        <li class="footer-li">
+                            <a class="footer-links" href="#">Rooms</a>
+                        </li>
+                        <li class="footer-li">
+                            <a class="footer-links" href="#">Gift Card</a>
+                        </li>
+                        <li class="footer-li">
+                            <a class="footer-links" href="#">Testimonials</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container-block">
+                    <h4 class="h4-title">Privacy</h4>
+                    <ul class="footer-ul">
+                        <li class="footer-li">
+                            <a class="footer-links" href="#">Career</a>
+                        </li>
+                        <li class="footer-li">
+                            <a class="footer-links" href="#">About Us</a>
+                        </li>
+                        <li class="footer-li">
+                            <a class="footer-links" href="#">Contact Us</a>
+                        </li>
+                        <li class="footer-li">
+                            <a class="footer-links" href="#">Services</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container-block-contact">
+                    <h4 class="h4-title">Contact info</h4>
+                    <div class="big-block">
+                        <div class="font-block">
+                           <i class="far fa-envelope fonts"></i>
+                           <i class="fas fa-phone-alt fonts"></i>
+                           <i class="fas fa-map-marker-alt fonts"></i>
+                        </div>
+                        <div class="a-tag-block">
+                           <a class="popup" href="mailto:example@yahoo.com">example@yahoo.com</a>
+                           <a class="popup" href="tel:+03204224254">+0 320 422 4254</a>
+                           <a class="popup" href="https://goo.gl/maps/EJUjqnkVmr6eWede8">Main Str Chicago Ilinois</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div class="footer-wide-block">
+            <p class="copyright">Copyright ©2020 All rights reserved | This template is made with love by <span class="span-tag">Marian</span></p>
+            <a class="pop-up" href="#">www.portfolioname.com</a>
+        </div>
+    </footer>
 </body>
 </html>
