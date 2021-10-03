@@ -38,6 +38,9 @@
     .footer-big-block {
         width: 900px;
     }
+    .first-block {
+        display: none;
+    }
 }
 @media (max-width:1080px) {
     .image-block {
@@ -46,8 +49,9 @@
         align-items: center;
     }
     .pictures {
-        width: 800px;
-        height: 800px;
+        width: 700px;
+        height: 700px;
+        margin-top: 20px;
     }
     .fa-bars {
         margin-left: 800px;
@@ -58,7 +62,7 @@
        display: flex;
        flex-direction: column;
        width: 900px;
-       margin-top: 370px;
+       margin-top: 100px;
     }
     .pop-up {
         margin-left: 26px;
@@ -76,9 +80,70 @@
         margin-left: 60px;
     }
     .footer-wrapper {
-        height: 620px;
+        height: 420px;
     }
     .sec-block {
         margin-left: 1px;
+        
+    }
+    .container-block {
+        margin-left: 60px;
+    }
+}
+@media (max-width:950px) {
+    .fa-bars {
+        margin-left: 600px;
+    }
+    .pictures {
+        width: 500px;
+        height: 500px;    
+    } 
+    .textarea-block {
+        width: 620px;
+    }
+    .subject-block, .name-block, .email-block, .button-block {
+        width: 620px;
+    }
+    .footer-wide-block {
+        width: 650px;
+    }
+    .footer-wrapper {
+        width: 100%;
+    }
+    .footer-big-block {
+        width: 400px;
+    }
+}
+@media (max-width:650px) {
+    .fa-bars {
+        margin-left: 400px;
+    }
+    .pictures {
+        width: 300px;
+        height: 300px;    
+    } 
+    .textarea-block {
+        width: 420px;
+    }
+    .subject-block, .name-block, .email-block, .button-block {
+        width: 420px;
+        /* margin-right: 90px; */
+    }
+    .footer-wide-block {
+        width: 450px;
+    }
+    .footer-wrapper {
+        width: 100%;
+    }
+    .icon-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pic-block {
+        margin-top: 290px;
+    }
+    .main-title {
+        font-size: 30px;
     }
 }
